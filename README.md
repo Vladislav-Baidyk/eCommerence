@@ -23,13 +23,13 @@ Arctic Commerce is a high-performance, modern e-commerce landing page and produc
 ## 📦 Live Demo
 
 Check out the live project here:
-![2026-03-30113604-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/480a7453-7137-486e-b9ed-b8afff81a453)
+
 
 
 ## 🎥 Preview
 
 *(You can add a screenshot or GIF here later)*
-![Project Preview](public/pictures/preview-screenshot.png)
+![2026-03-30113604-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/480a7453-7137-486e-b9ed-b8afff81a453)
 
 ## 📁 How to Run Locally
 
