@@ -1,0 +1,89 @@
+@import "tailwindcss";
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.logo-text{
+    color: #E5F2FF;
+    font-size: 2rem;
+}
+.navigationLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.basicLink{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #E5F2FF;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.basicLink.activeLink{
+    color: #34B5FA;
+    position: relative; 
+}
+.basicLink.activeLink::after{
+    content: " ";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #34B5FA;
+    width: 100%;
+    height: 2px;
+}
+.navigation-mobile{
+    display: none;
+}
+@media screen and (max-width:925px) {
+    .navigation{
+        display: none;
+    }
+    .navigation-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    }
+    .logo-text-mobile{
+    color: #E5F2FF;
+    font-size: 1.5rem;
+}
+    .navigationLink-mobile{
+        z-index: 40;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    background-color: #006591;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    min-height:100vh;
+    top: -5%;
+    left: 50%;
+}
+.basicLinkMobile {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #E5F2FF;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+    .menuBar{
+        height: 2rem;
+    }
+    .close{
+        height: 2rem;
+        position: absolute;
+        left: 80%;
+        top: 3%;
+        z-index: 2;
+    }
+}

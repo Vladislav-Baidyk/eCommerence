@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+.details-product-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.details-product-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+}
+.details-right-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}

@@ -1,0 +1,9 @@
+{
+   "links":[
+    {"id":0,"name":"Products","path":"products"},
+    {"id":1,"name":"electronics","path":"eletronics"},
+    {"id":2,"name":"Jewelery","path":"jewelery"},
+    {"id":3,"name":"Men's clothing","path":"men"},
+    {"id":4,"name":"women's clothing","path":"women"}
+   ]
+}

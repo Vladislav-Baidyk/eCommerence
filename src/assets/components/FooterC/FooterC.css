@@ -1,0 +1,124 @@
+@import "tailwindcss";
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5rem;
+    flex-shrink: 0;
+}
+.footer-start{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.footer-pic-wrapper{
+    width: 80%;
+    height: 30rem;
+    position: relative;
+}
+.footer-pic{
+    object-fit: cover;
+    width: 100%;
+    object-position: 10% 50%;
+    height: 100%;
+    opacity: 0.8;
+}
+.footer-pic-wrapper::after{
+    content: "  ";
+    position: absolute;
+    background: linear-gradient(to right, #000000 50%,#021924 76%,rgba(255, 255, 255, 0));
+    z-index: 2;
+    top: 00%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.footer-pic-text{
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    height: 100%;
+    left: 5%;
+    z-index: 4;
+}
+.footer-pic-header{
+    font-size: 2.4rem;
+    color: #E5F2FF;
+    font-weight: bolder;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 0.9px;
+}
+.footer-end-container{
+    width: 100%;
+    height: auto;
+    background-color: #0b1221;
+    display: flex;
+    justify-content: center;
+    align-items: center   ;
+    box-sizing: content-box; 
+}
+.footer-end-content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    padding: 3rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    margin-top: 3rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.column{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+}
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(238, 238, 238, 0.315);
+}
+@media screen and (max-width:480px) {
+    .footer-pic-text{
+    top: 10%;
+    width: 80%;
+}
+    .footer-end-content{
+        padding: 1rem 0rem;
+    }
+    .column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+
+}
+}
+@media screen and (min-width:481px) and (max-width:1024px)  {
+    .footer-pic-text{
+    top: 10%;
+    width: 80%;
+}
+    .column{
+        width: 50%;
+    }
+}
