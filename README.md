@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# ❄️ Arctic Commerce — Modern Tech E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Arctic Commerce is a high-performance, modern e-commerce landing page and product catalog built with **React 19 + Vite**. It features a sleek dark theme, dynamic product filtering, and a fully responsive layout.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **🛒 Dynamic Product Catalog:** Fetches real-time data from the Fake Store API.
+* **🔍 Advanced Search:** Instant client-side filtering logic (filters after 3 characters).
+* **📱 Fully Responsive:** Adaptive UI built with **Tailwind CSS** (optimized for mobile, tablet, and desktop).
+* **📂 Data-Driven UI:** Navigation links, footer icons, and gallery items are managed via local **JSON** files for easy scalability.
+* **📄 Detailed Product Views:** Seamless navigation using **React Router 7** with state passing between routes.
+* **🎨 Professional UI:** Features complex CSS layouts, sticky footers, and custom image-hover effects.
 
-## React Compiler
+## 🔧 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React 19** (Functional Components, Hooks: `useState`, `useEffect`, `useLocation`, `useOutletContext`)
+* **Vite** (Lightning-fast build tool)
+* **Tailwind CSS** (Utility-first styling for rapid responsive design)
+* **React Router 7** (Client-side routing and state management)
+* **TypeScript** (Strict typing for robust data handling)
+* **JSON** (Local data management for static content)
 
-## Expanding the ESLint configuration
+## 📦 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Check out the live project here:
+https://Vladislav-Baidyk.github.io/eCommerence/
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎥 Preview
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+*(You can add a screenshot or GIF here later)*
+![2026-03-30113604-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/480a7453-7137-486e-b9ed-b8afff81a453)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 How to Run Locally
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Vladislav-Baidyk/arctic-commerce.git](https://github.com/Vladislav-Baidyk/arctic-commerce.git)
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd arctic-commerce
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Build for production:**
+    ```bash
+    npm run build
+    ```
+
+---
+
+Built with ❤️ by Vladislav Baidyk
