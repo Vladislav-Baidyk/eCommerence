@@ -23,7 +23,7 @@ Arctic Commerce is a high-performance, modern e-commerce landing page and produc
 ## 📦 Live Demo
 
 Check out the live project here:
-https://vladislav-baidyk.github.io/eCommerence/
+https://Vldislav-Baidyk.github.io/eCommerence/
 
 
 ## 🎥 Preview
