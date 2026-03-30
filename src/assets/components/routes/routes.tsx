@@ -8,5 +8,7 @@ export const routes = createBrowserRouter([
         {index:true,element:<Products/>},
         {path:'products',element:<Products/>},
         {path:'detailsProduct',element:<ProductDetails/>},
-    ]}
+    ]},{
+        basename: "/eCommerence"
+    }
 ])
